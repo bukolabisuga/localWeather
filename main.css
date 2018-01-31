@@ -9,7 +9,7 @@ html, body {
     min-height: 100%;
     width: 100%;
     background-color: black;
-    background: url('http://res.cloudinary.com/do52uumgy/image/upload/c_scale,w_3061/v1517409216/nasa-43563_ej2mpd.jpg') center no-repeat;
+    background: url('https://res.cloudinary.com/do52uumgy/image/upload/c_scale,w_3061/v1517409216/nasa-43563_ej2mpd.jpg') center no-repeat;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
 }
