@@ -1,0 +1,67 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+html, body {
+    z-index: -2;
+    margin: 0;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    background: url('http://res.cloudinary.com/do52uumgy/image/upload/c_scale,w_3061/v1517409216/nasa-43563_ej2mpd.jpg') center no-repeat;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+section {
+    width: 100%;
+    position: relative;
+}
+.title h1 {
+    color: #ffffff;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 2em auto;
+}
+.weather-con {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 0;
+    align-items: center;
+}
+.weather-cast {
+    background-color: #ffffff;
+    border-radius: 2px;
+    display: flex;
+    color: #000000;
+    height: 100px;
+    align-items: center;
+    margin: 1em;
+    opacity: 0.8;
+    width: 15em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+button {
+    margin-top: 1em;
+    padding: 1em;
+    border-radius: 23px;
+    border: none;
+    background-color: #FA8323;
+    color: #ffffff;
+    font-size: 1em;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.9;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0.5em;
+    color: #ffffff;
+}
+footer a {
+    color: #FA8323;
+}
