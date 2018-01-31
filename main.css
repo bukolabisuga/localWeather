@@ -6,7 +6,7 @@ html, body {
     z-index: -2;
     margin: 0;
     font-size: 16px;
-    height: 100%;
+    min-height: 100%;
     width: 100%;
     background-color: black;
     background: url('http://res.cloudinary.com/do52uumgy/image/upload/c_scale,w_3061/v1517409216/nasa-43563_ej2mpd.jpg') center no-repeat;
